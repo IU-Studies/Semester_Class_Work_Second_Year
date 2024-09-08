@@ -46,5 +46,6 @@ void Preorder(struct Node* root){
 int main () {
   struct Node* root = NULL;
   root = BuildTree();
+  printf("Preorder Traversal is :- ");
   Preorder(root);
 }
