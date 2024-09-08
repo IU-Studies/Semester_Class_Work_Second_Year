@@ -38,7 +38,7 @@ struct Node* BuildTree(){
 void Preorder(struct Node* root){
   if (root == NULL) return;
 
-  printf("%d", root->val);
+  printf("%d ", root->val);
   Preorder(root->left);
   Preorder(root->right);
 }
