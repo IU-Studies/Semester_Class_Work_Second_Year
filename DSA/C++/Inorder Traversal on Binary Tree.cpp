@@ -1,3 +1,5 @@
+// In this program we will perform Inorder traversal on a binary tree
+
 #include <iostream>
 using namespace std;
 
@@ -45,9 +47,7 @@ void Inorder(Node* &root){
 }
 
 int main() {
-
   Node* root = NULL;
   BuildTree(root);
   Inorder(root);
-
 }
