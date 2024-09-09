@@ -1,3 +1,5 @@
+// In this program we will perform Preorder traversal on a binary tree
+
 #include <iostream>
 using namespace std;
 
@@ -46,9 +48,8 @@ void Preorder(Node* &root){
 }
 
 int main() {
-
   Node* root = NULL;
   BuildTree(root);
+  cout<<"Preorder Traversal:-";
   Preorder(root);
-
 }
