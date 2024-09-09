@@ -1,3 +1,5 @@
+// In this program we will perform level order traversal or breadth first search (BFS) traversal on a binary tree
+
 #include <iostream>
 #include <queue>
 using namespace std;
