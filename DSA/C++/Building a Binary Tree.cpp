@@ -1,3 +1,5 @@
+// In this program we will be creating a basic binary tree
+
 #include <iostream>
 using namespace std;
 
@@ -6,7 +8,6 @@ public:
   int val;
   Node* left;
   Node* right;
-  
   Node (int data){
     val = data;
     left = NULL;
@@ -34,8 +35,6 @@ Node* BuildTree(Node* &root){
 }
 
 int main() {
-  
   Node* root = NULL;
   BuildTree(root);
-  
 }
