@@ -1,3 +1,5 @@
+// In this program we will be creating a binary tree
+
 #include <stdio.h>
 #include <malloc.h>
 
