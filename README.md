@@ -1,4 +1,5 @@
-#**📚 Semester 3 Class Work Repository**  
+# 📚Semister 3 Class Work Repository
+ 
 In this repository, I upload questions covered during both offline and online classes, including assignments and extra homework questions. 
 
 The subjects I've covered so far are:  
