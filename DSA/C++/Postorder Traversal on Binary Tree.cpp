@@ -1,3 +1,5 @@
+// In this program we will perform Postorder traversal on a binary tree
+
 #include <iostream>
 using namespace std;
 
@@ -45,9 +47,7 @@ void Postorder(Node* &root){
 }
 
 int main() {
-
   Node* root = NULL;
   BuildTree(root);
   Postorder(root);
-
 }
