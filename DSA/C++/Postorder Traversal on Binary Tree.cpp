@@ -49,5 +49,6 @@ void Postorder(Node* &root){
 int main() {
   Node* root = NULL;
   BuildTree(root);
+  cout<<"Postorder Traversal:-";
   Postorder(root);
 }
