@@ -1,4 +1,3 @@
-
 section .data
 first_name db "Enter first name:- "
 middle_name db "Enter middle name:- "
