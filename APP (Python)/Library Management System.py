@@ -59,6 +59,7 @@ class Library:
 
 library = Library()
 library.register_patron("IU")
+library.register_patron("Aryan")
 library.add_book("Ikigai")
 library.add_book("Rich Dad Poor Dad")
 library.add_book("Think and Grow Rich")
