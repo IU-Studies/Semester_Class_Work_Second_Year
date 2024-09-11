@@ -1,5 +1,5 @@
 section .data
-num1 db 20h ;
+num1 db 20h 
 num2 db 2h
 
 section .bss
