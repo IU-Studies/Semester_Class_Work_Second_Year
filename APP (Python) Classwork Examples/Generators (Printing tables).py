@@ -1,3 +1,5 @@
+# In this program we will print tables of given number using generator
+
 def table_generator(number):
     for i in range(1, 11):
         yield i * number
