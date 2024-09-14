@@ -6,6 +6,7 @@ The subjects I've covered so far are:
 - **Data Structures and Algorithms (DSA)**  📊🔗📐
 - **Assembly Language Programming (ALP)**  🖥️⚙️🔧
 - **Advanced Python Programming (APP)** 🐍
+- **PAI (Arduino Programming/Experiments)** 🤖⚡📡📟
 
 I plan to include more subjects later on. 
 
