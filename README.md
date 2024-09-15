@@ -1,4 +1,4 @@
-# 📚Semister 3 Class Work Repository
+# 📚Second Year Class Work Repository
  
 In this repository, I upload questions covered during both offline and online classes, including assignments and extra homework questions. 
 
