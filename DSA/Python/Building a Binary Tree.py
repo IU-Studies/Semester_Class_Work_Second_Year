@@ -22,5 +22,4 @@ def build_tree():
     
     return root
 
-
 root = build_tree()
