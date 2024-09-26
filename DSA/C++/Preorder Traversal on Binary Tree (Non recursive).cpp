@@ -65,5 +65,6 @@ void Preorder(Node* &root){
 int main() {
   Node* root = NULL;
   BuildTree(root);
+  cout<<"Preorder :-";
   Preorder(root);
 }
