@@ -67,5 +67,6 @@ void Inorder(Node* root) {
 int main() {
   Node* root = NULL;
   BuildTree(root);
+  cout<<"Inorder :- ";
   Inorder(root);
 }
