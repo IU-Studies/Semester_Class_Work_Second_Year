@@ -43,7 +43,6 @@ def postorder(root):
     postorder(root.right)
     print(root.val, end=" ")
 
-# Code execution
 root = build_tree()
 
 print("Preorder Traversal is:", end=" ")
