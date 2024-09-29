@@ -33,7 +33,6 @@ def preorder_non_recursive(root):
         node = stack.pop()
         print(node.val, end=" ")
         
-        # Push right first, so left is processed first
         if node.right:
             stack.append(node.right)
         if node.left:
