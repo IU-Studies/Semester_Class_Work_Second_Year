@@ -16,7 +16,7 @@ class Node {
 public class BinaryTreeTraversals {
     static Node buildTree() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter data (-1 to stop): ");
+        System.out.print("Enter data : ");
         int data = scanner.nextInt();
 
         if (data == -1) {
