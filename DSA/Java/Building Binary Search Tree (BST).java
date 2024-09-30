@@ -1,6 +1,4 @@
 // In this program we will create a Binary Search Tree (BST).
-// Input -1 to stop taking inputs.
-
 
 import java.util.Scanner;
 
