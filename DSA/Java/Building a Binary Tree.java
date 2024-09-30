@@ -1,4 +1,4 @@
-// In this program we will be creating a basic binary tree
+// In this program we will be creating a basic binary tree.
 
 import java.util.Scanner;
 
