@@ -1,5 +1,4 @@
 // In this program we will be creating a basic binary tree
-// Input -1 to stop taking inputs.
 
 import java.util.Scanner;
 
