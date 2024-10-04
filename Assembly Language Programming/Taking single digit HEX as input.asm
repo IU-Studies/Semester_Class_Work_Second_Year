@@ -45,12 +45,9 @@ jbe sub57
 
 error: rw 4,1,msg2,msg2len
 
-
 sub57: sub [h1d],byte 20h
 sub37: sub [h1d],byte 7h
 sub30: sub [h1d],byte 30h
-
-
 
 rw 4,1,msg3,msg3len
 cmp [h1d], byte 9
