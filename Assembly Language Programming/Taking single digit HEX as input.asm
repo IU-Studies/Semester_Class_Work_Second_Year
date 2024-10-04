@@ -21,17 +21,12 @@ section .text
 global _start
 _start:
 
-call h1da
-
-call h1dd
-
 mov eax,1
 mov ebx,0
 int 80h
 
-h1da:
 rw 4,1,msg1,msg1len
-up1: rw 3,0,h1d,2
+rw 3,0,h1d,2
 
 cmp [h1d], byte '0'
 jb error
@@ -49,18 +44,17 @@ cmp [h1d], byte 'f'
 jbe sub57
 
 error: rw 4,1,msg2,msg2len
-jmp up1
+
 
 sub57: sub [h1d],byte 20h
 sub37: sub [h1d],byte 7h
 sub30: sub [h1d],byte 30h
-ret
 
-h1dd:
+
+
 rw 4,1,msg3,msg3len
 cmp [h1d], byte 9
 jbe add30
 add [h1d],byte 7h
 add30: add [h1d],byte 30h
 rw 4,1,h1d,1
-ret
