@@ -21,10 +21,6 @@ section .text
 global _start
 _start:
 
-mov eax,1
-mov ebx,0
-int 80h
-
 rw 4,1,msg1,msg1len
 rw 3,0,h1d,2
 
@@ -55,3 +51,7 @@ jbe add30
 add [h1d],byte 7h
 add30: add [h1d],byte 30h
 rw 4,1,h1d,1
+
+mov eax,1
+mov ebx,0
+int 80h
