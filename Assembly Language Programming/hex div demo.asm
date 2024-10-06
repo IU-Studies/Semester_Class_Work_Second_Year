@@ -1,60 +1,82 @@
 section .data
-msg1 db 10,15,'Enter valid single digit HEX (0-9, A-F, a-f)'
-msg1len equ $-msg1
-msg2 db 10,15,'Enter digit is invalid HEX, please reenter single digit valid HEX'
-msg2len equ $-msg2
-msg3 db 10,15,'Entered HEX digit is '
-msg3len equ $-msg3
+    msg1 db 'Enter a Hex Digit: $'
+    msg2 db 0Ah,0Dh, 'In Decimal it is: $'
+    hexInput db 10 dup(0)
+    decOutput db 10 dup(0)
 
 section .bss
-h1d resb 1
-
-%macro rw 4
-mov eax,%1
-mov ebx,%2
-mov ecx,%3
-mov edx,%4
-int 80h
-%endmacro
+    temp resb 1
 
 section .text
-global _start
+    global _start
+
 _start:
+    ; Print the message to enter a hex digit
+    mov edx, len msg1
+    mov ecx, msg1
+    mov ebx, 1
+    mov eax, 4
+    int 0x80
 
-mov bl, 10
-rw 4,1,msg1,msg1len
-rw 3,0,h1d,2
+    ; Read the hex input
+    mov eax, 3
+    mov ebx, 0
+    mov ecx, hexInput
+    mov edx, 10
+    int 0x80
 
-cmp [h1d], byte '0'
-jb error
-cmp [h1d], byte '9'
-mov al, [h1d]
-jbe div10
+    ; Convert hex to decimal
+    mov esi, hexInput
+    xor eax, eax
+    xor ebx, ebx
+    mov ecx, 16
 
-cmp [h1d], byte 'A'
-jb error
-cmp [h1d], byte 'F'
-mov al, [h1d]
-jbe div10
+convert_loop:
+    lodsb
+    cmp al, 0
+    je done
+    sub al, '0'
+    cmp al, 9
+    jbe valid_digit
+    sub al, 7
+valid_digit:
+    imul ebx, ecx
+    add ebx, eax
+    jmp convert_loop
 
-cmp [h1d], byte 'a'
-jb error
-cmp [h1d], byte 'f'
-mov al, [h1d]
-jbe div10
+done:
+    ; Convert decimal to string
+    mov eax, ebx
+    mov edi, decOutput + 9
+    mov byte [edi], 0
+    dec edi
 
-error: rw 4,1,msg2,msg2len
+convert_to_string:
+    xor edx, edx
+    div ecx
+    add dl, '0'
+    mov [edi], dl
+    dec edi
+    test eax, eax
+    jnz convert_to_string
 
-div10: div bl
+    ; Print the decimal output message
+    mov edx, len msg2
+    mov ecx, msg2
+    mov ebx, 1
+    mov eax, 4
+    int 0x80
 
-mov [h1d], al
-rw 4,1,msg3,msg3len
-cmp [h1d], byte 9
-jbe add30
-add [h1d],byte 7h
-add30: add [h1d],byte 30h
-rw 4,1,h1d,1
+    ; Print the decimal output
+    mov edx, 10
+    mov ecx, edi
+    mov ebx, 1
+    mov eax, 4
+    int 0x80
 
-mov eax,1
-mov ebx,0
-int 80h
+    ; Exit the program
+    mov eax, 1
+    xor ebx, ebx
+    int 0x80
+
+len equ $ - msg1
