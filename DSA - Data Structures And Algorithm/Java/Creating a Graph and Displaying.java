@@ -1,3 +1,5 @@
+// In this program we will create a graph and display it.
+
 import java.util.Scanner;
 
 public class GraphInput {
