@@ -43,7 +43,6 @@ public class BinaryTree {
             Node current = stack.pop();
             System.out.print(current.val + " ");
 
-            // Push right child first so that left child is processed first
             if (current.right != null) stack.push(current.right);
             if (current.left != null) stack.push(current.left);
         }
