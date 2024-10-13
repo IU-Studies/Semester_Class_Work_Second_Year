@@ -1,5 +1,5 @@
 
-# How to Run and Debug Assembly Programs:- 
+# How to Run and Debug Assembly Programs?
 
 These are the commands that you need to follow in the Ubuntu terminal to run your assembly code.
 
