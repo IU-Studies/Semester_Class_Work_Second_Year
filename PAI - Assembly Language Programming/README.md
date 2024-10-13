@@ -31,7 +31,7 @@ These are the commands that you need to follow in the Ubuntu terminal to run you
    gdb file_name
 ```
 
-#### Step 6: These are some of the GDB commands you will need after executing the GDB command.
+#### Step 6: These are some of the commands you will need after executing the GDB command (i.e. Step 5 command).
 
 | No. | Command             | Description                                                                                      |
 | :-- | :------------------ | :----------------------------------------------------------------------------------------------- |
