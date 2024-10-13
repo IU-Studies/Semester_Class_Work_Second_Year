@@ -21,15 +21,14 @@ class Configuration:
     def get_setting(self, key):
         return self.settings.get(key)
 
-if __name__ == "__main__":
-    config = Configuration()
-    config.load_settings('config.json')
+config = Configuration()
+config.load_settings('config.json')
 
-    print("Database Host:", config.get_setting('database_host'))
-    print("API Key:", config.get_setting('api_key'))
+print("Database Host:", config.get_setting('database_host'))
+print("API Key:", config.get_setting('api_key'))
 
-    another_config = Configuration()
-    print("Is the same instance:", config is another_config)
+another_config = Configuration()
+print("Is the same instance:", config is another_config)
 
 
 """
