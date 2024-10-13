@@ -33,3 +33,18 @@ These are the commands that you need to follow in the Ubuntu terminal to run you
    gdb file_name
 ```
 
+
+## After using GDB command
+
+#### These are some of the GDB commands you will need.
+
+
+| No. | Commanf     | Description                |
+| :-------- | :------- | :------------------------- |
+| 1 | `break _start` | This command sets a breakpoint at the very beginning of the assembly program, allowing you to start debugging from the first instruction. |
+| 2 | `run` | This command is used to start the execution of the program under the debugger's control.  |
+| 3 | `nexti` | This command is used to step over the next machine instruction when debugging an assembly program. |
+
+
+
+
