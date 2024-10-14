@@ -31,3 +31,4 @@
 <img width="250" src="https://github.com/user-attachments/assets/fc8346a3-dfdc-4d2a-9581-34bd87572ab9">
 </p>
 
+<h4 align="center">Now go study! This cat is working hard. If you don’t study, this cat will outperform you.</h4>
