@@ -1,5 +1,5 @@
 <h1 align="center">📚Second Year Class Work Repository</h1>
- 
+
 <p>In this repository, I upload questions covered during both offline and online classes, including assignments and extra homework questions.</p>
 
 <p>The subjects I've covered so far are:</p>
@@ -11,9 +11,12 @@
   <li><b>Processor Architecture and Interfacing (PAI)</b> 🤖⚡📡📟</li>
 </ul>
 
-<p>I plan to include more subjects later on.</p>
+<p><b>I plan to include more subjects later on.</b></p>
 
+---
 <h3>Note: This material is for reference purposes only. This repository does not encourage cheating or direct copying. ✨</h3>
+
+---
 
 <h3 align="center">Till Then, Happy Learning!</h3>
 
@@ -32,3 +35,5 @@
 </p>
 
 <h4 align="center">Now go study! This cat is working hard. If you don’t study, this cat will outperform you.</h4>
+
+
