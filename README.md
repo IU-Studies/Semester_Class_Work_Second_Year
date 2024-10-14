@@ -26,3 +26,8 @@
   <img src="https://github.com/user-attachments/assets/d273406e-32fa-477d-9b5e-258478227510" alt="asm" width="40" height="40"/>  
   <img src="https://github.com/user-attachments/assets/e1f649da-8e70-4b25-8741-d04029abff92" alt="mysql" width="40" height="40"/>
 </p>
+
+<p align="center">
+<img width="250" src="https://github.com/user-attachments/assets/fc8346a3-dfdc-4d2a-9581-34bd87572ab9">
+</p>
+
