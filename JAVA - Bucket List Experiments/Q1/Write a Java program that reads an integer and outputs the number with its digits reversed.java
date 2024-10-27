@@ -1,3 +1,5 @@
+// Write a Java program that reads an integer and outputs the number with its digits reversed.
+
 import java.util.Scanner;
 
 public class ReverseDigits {
