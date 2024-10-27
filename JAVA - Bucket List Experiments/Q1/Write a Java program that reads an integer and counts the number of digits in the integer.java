@@ -1,3 +1,5 @@
+// Write a Java program that reads an integer and counts the number of digits in the integer.
+
 import java.util.Scanner;
 
 public class DigitCounter {
