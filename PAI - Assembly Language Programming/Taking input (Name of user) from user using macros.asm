@@ -1,8 +1,10 @@
 section .data
 first_name db "Enter first name:- "
+msg1len equ $-first_name
 middle_name db "Enter middle name:- "
+msg2len equ $-middle_name
 last_name db "Enter last name:- "
-
+msg3len equ $-last_name
 
 section .bss
 first_name_input resb 50d
@@ -30,13 +32,13 @@ _start:
 %endmacro
 
 _start:
-    print_msg first_name, 19
+    print_msg first_name, msg1len
     read_input first_name_input
 
-    print_msg middle_name, 20
+    print_msg middle_name, msg2len
     read_input middle_name_input
 
-    print_msg last_name, 18
+    print_msg last_name, msg3len
     read_input last_name_input
 
     print_msg first_name_input, 50
