@@ -1,7 +1,10 @@
 section .data
 first_name db "Enter first name:- "
+msg1len equ $-first_name
 middle_name db "Enter middle name:- "
+msg2len equ $-middle_name
 last_name db "Enter last name:- "
+msg3len equ $-last_name
 
 section .bss
 first_name_input resb 51
@@ -15,7 +18,7 @@ _start:
 MOV EAX, 4
 MOV EBX, 1
 MOV ECX, first_name
-MOV EDX, 19
+MOV EDX, msg1len
 INT 80h
 
 MOV EAX, 3
@@ -27,7 +30,7 @@ INT 80h
 MOV EAX, 4
 MOV EBX, 1
 MOV ECX, middle_name
-MOV EDX, 20
+MOV EDX, msg2len
 INT 80h
 
 MOV EAX, 3
@@ -39,7 +42,7 @@ INT 80h
 MOV EAX, 4
 MOV EBX, 1
 MOV ECX, last_name
-MOV EDX, 18
+MOV EDX, msg3len
 INT 80h
 
 MOV EAX, 3
