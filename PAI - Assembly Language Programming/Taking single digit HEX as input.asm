@@ -1,8 +1,8 @@
 section .data
 
-msg1 db 10,15,'Enter valid single digit HEX (0-9, A-F, a-f)'
+msg1 db 10,15,'Enter valid single digit HEX (0-9, A-F, a-f) '
 msg1len equ $-msg1
-msg2 db 10,15,'Enter digit is invalid HEX, please reenter single digit valid HEX'
+msg2 db 10,15,'Enter digit is invalid HEX, please reenter single digit valid HEX '
 msg2len equ $-msg2
 msg3 db 10,15,'Entered HEX digit is '
 msg3len equ $-msg3
