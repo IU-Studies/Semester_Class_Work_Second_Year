@@ -1,3 +1,6 @@
+;8086 ALP to perform division of 2, 8 Bit numbers stored in memory, store your result in memory. 
+;Use gdb debugger to execute and check the result. 
+
 section .data
 Dividend db 21       
 Divisor db 5       
