@@ -1,3 +1,6 @@
+;8086 ALP to perform array addition. Declare byte type array in the program and store 8 Bit result in 
+;memory. Use gdb debugger to execute and check the result. 
+
 section .data
 arr1 db 1,2,3,4,5
 arrlen equ $-arr1
