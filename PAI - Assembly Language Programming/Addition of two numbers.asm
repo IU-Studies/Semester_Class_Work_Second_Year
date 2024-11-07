@@ -1,3 +1,6 @@
+;8086 ALP to perform addition of 2, 8 Bit numbers stored in memory, store your result in memory. 
+Use gdb debugger to execute and check the result. 
+
 section .data
 num1 db 20h 
 num2 db 2h
