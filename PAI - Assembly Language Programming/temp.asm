@@ -9,8 +9,8 @@ msg4 db 10,15,'Decimal value is: '
 msg4len equ $-msg4
 
 section .bss
-h1d resb 1          ; Buffer to store user input (1 byte)
-decimal resb 1      ; Buffer for storing the decimal result (1 byte)
+h1d resb 1          
+decimal resb 1      
 
 %macro rw 4
 mov eax,%1
@@ -24,69 +24,64 @@ section .text
 global _start
 _start:
 
-; Prompt user for input
 call h1da
 call h1dd
 
-; Convert HEX digit to decimal
 call hex_to_decimal
 
-; Print the result
 call print_decimal
 
-mov eax,1            ; Exit the program
+mov eax,1           
 mov ebx,0
 int 80h
 
-; Function to display prompt and read user input
 h1da:
 rw 4,1,msg1,msg1len
-up1: rw 3,0,h1d,2  ; Read user input (one byte)
-; Validate HEX input
+up1: rw 3,0,h1d,2  
 cmp [h1d], byte '0'
 jb error
 cmp [h1d], byte '9'
-jbe convert_digit
+jbe sub30
 cmp [h1d], byte 'A'
 jb error
 cmp [h1d], byte 'F'
-jbe convert_uppercase
+jbe sub37
 cmp [h1d], byte 'a'
 jb error
 cmp [h1d], byte 'f'
-jbe convert_lowercase
+jbe to_upper
 error: rw 4,1,msg2,msg2len
 jmp up1
 
-; Convert lowercase to uppercase, then to decimal
-hex_to_decimal:
-convert_lowercase:
-    sub [h1d], byte 20h     ; Convert lowercase to uppercase
-convert_uppercase:
-    sub [h1d], byte 'A' - 10 ; Convert 'A'-'F' to decimal 10-15
-    jmp store_decimal
+to_upper: sub [h1d], byte 20h  ; Convert lowercase a-f to uppercase A-F
+jmp sub37
 
-convert_digit:
-    sub [h1d], byte '0'      ; Convert '0'-'9' to decimal 0-9
-store_decimal:
-    mov al, [h1d]            ; Load the value from h1d into register AL
-    mov [decimal], al        ; Store the value from AL into decimal
-    ret
+sub37: sub [h1d], byte 7h    
+sub30: sub [h1d], byte 30h   
+ret
 
-; Function to display entered HEX digit
 h1dd:
 rw 4,1,msg3,msg3len
 cmp [h1d], byte 9
 jbe add30
-add [h1d], byte 'A' - 10
-add30: add [h1d], byte '0'
-rw 4,1,h1d,1                ; Print the entered HEX digit
+add [h1d],byte 7h
+add30: add [h1d],byte 30h
+rw 4,1,h1d,1            
 ret
 
-; Function to print the decimal value
+hex_to_decimal:
+cmp [h1d], byte 9
+jbe store_decimal
+; If the input is a letter between 'A' and 'F'
+add [h1d], byte 9       
+store_decimal:
+mov al, [h1d]        
+mov [decimal], al    
+ret
+
 print_decimal:
 rw 4,1,msg4,msg4len
-mov al, [decimal]           ; Load the decimal value
-add al, '0'                 ; Convert it to ASCII
-rw 4,1,decimal,1            ; Output the decimal value
+mov al, [decimal]      
+add al, '0'            
+rw 4,1,decimal,1       
 ret
