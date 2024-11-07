@@ -58,6 +58,8 @@ jbe convert_lowercase
 error: rw 4,1,msg2,msg2len
 jmp up1
 
+; Convert lowercase to uppercase, then to decimal
+hex_to_decimal:
 convert_lowercase:
     sub [h1d], byte 20h     ; Convert lowercase to uppercase
 convert_uppercase:
