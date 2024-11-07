@@ -1,3 +1,5 @@
+;8086 ALP to compare 2 strings accepted from the user and display the result and comparison.
+
 section .data
 mes1 db 10, 15, "Enter first string "
 mes1len equ $-mes1
