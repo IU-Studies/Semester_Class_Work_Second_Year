@@ -1,3 +1,6 @@
+;8086 ALP to accept 8 Bit Haxadecimal number from the user and display the same on screen. 
+;Implement validity check and ASCII to HEX and HEX to ASCII.  
+
 section .data
 
 msg1 db 10,15,'Enter valid single digit HEX (0-9, A-F, a-f) '
