@@ -1,3 +1,5 @@
+;8086 ALP to display full name of the user. Declare to accept first name, middle name, and surname.
+
 section .data
 first_name db "Enter first name:- "
 msg1len equ $-first_name
