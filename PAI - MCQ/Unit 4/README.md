@@ -7,7 +7,7 @@
    c) CLK, MOSI & MISO   
    d) SS, MOSI & MISO  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **2.** The operating frequency of the A328P is:  
    a) 16Hz  
@@ -15,7 +15,7 @@
    c) 16MHz ✅  
    d) 1.6MHz  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **3.** Sensors can be interfaced to:  
    a) Analog port  
@@ -23,7 +23,7 @@
    c) Both a & b   
    d) None of these  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **4.** An event caused the A328P to suspend all running operations and start the program again. This may be due to:  
    a) Interrupt  
@@ -31,7 +31,7 @@
    c) Power OFF  
    d) All of these ✅
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **5.** Since the A328P lacks a digital-to-analog converter, which pins are used to mimic analog signals?  
    a) PWM ✅  
@@ -39,7 +39,7 @@
    c) Analog  
    d) CLK  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **6.** Which of the following is *not* a constant in the Arduino programming language?  
    a) HIGH  
@@ -47,7 +47,7 @@
    c) LED_BUILTIN  
    d) True-false ✅  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **7.** The analog input voltage sensed by the A328P is sampled into values of:  
    a) 1022  
@@ -55,7 +55,7 @@
    c) 0 to 1023 ✅  
    d) 1 to 1023  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **8.** External interrupt requests can be given through pins:  
    a) INT0 & INT1 ✅  
@@ -63,7 +63,7 @@
    c) EXT1 & EXT2  
    d) IN1 & IN2  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **9.** Compared to microprocessors, microcontrollers are generally:  
    a) Faster  
@@ -71,7 +71,7 @@
    c) Run at the same speed  
    d) None of these  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 
 
@@ -81,7 +81,7 @@
    c) SS  
    d) CLK  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **11.** The sketch file for Arduino is saved with the extension:  
    a) .uno  
@@ -89,7 +89,7 @@
    c) .ino ✅  
    d) .c  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **12.** The resolution of the inbuilt ADC in the 328P is:  
    a) 10-bit ✅  
@@ -97,7 +97,7 @@
    c) 1-bit  
    d) 8-bit  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **13.** The Arduino Uno board can be line-powered by supplying voltage in the range of:  
    a) 7-12V AC  
@@ -105,7 +105,7 @@
    c) 7-12V DC ✅  
    d) 0.7-12V AC  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **14.** The A328P consists of:  
    a) 20 pins  
@@ -113,7 +113,7 @@
    c) 24 pins  
    d) 40 pins  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **15.** Which function is executed only once when the A328P is powered on?  
    a) Main()  
@@ -121,7 +121,7 @@
    c) Loop()  
    d) Default()  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **16.** The SRAM available in the A328P is:  
    a) 2Kb  
@@ -129,7 +129,7 @@
    c) 2KB ✅  
    d) 2MB  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **17.** The maximum current sourced or sunk by digital I/O pins on the Arduino board is:  
    a) 4mA  
@@ -137,7 +137,7 @@
    c) 40mA ✅  
    d) 400mA  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **18.** Which pin is useful for providing a voltage reference to the board?  
    a) Vref  
@@ -145,7 +145,7 @@
    c) GND  
    d) CLK  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **19.** The A328P microcontroller uses which architecture?  
    a) Harvard Architecture ✅  
@@ -153,7 +153,7 @@
    c) PowerPC  
    d) x86  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 
 **20.** When the controller acts as the Slave, which pin is used for sending data from Slave to Master?  
@@ -162,7 +162,7 @@
    c) SS  
    d) CLK  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **21.** The size of flash ROM on the A328P microcontroller is:  
    a) 32Kb  
@@ -170,7 +170,7 @@
    c) 32KB ✅  
    d) 32MB  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **22.** In the A328P, code is stored in:  
    a) Data memory  
@@ -178,7 +178,7 @@
    c) SRAM  
    d) ROM  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **23.** The range of analog pins on the Arduino Uno board is from:  
    a) A0-A6  
@@ -186,7 +186,7 @@
    c) A1-A6  
    d) A1-A5  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **24.** The ATmega168/328 has three ports designated as:  
    a) A, B, C  
@@ -194,7 +194,7 @@
    c) B, C, D ✅  
    d) C, D, E  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **25.** The two pins used for serial communication (Tx, Rx) are:  
    a) D0, D1 ✅  
@@ -202,7 +202,7 @@
    c) A0, A1  
    d) All of these  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **26.** The Arduino Uno has how many PWM pins?  
    a) 2  
@@ -210,7 +210,7 @@
    c) 6 ✅  
    d) 8  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **27.** In A328P, "P" stands for:  
    a) Programmable  
@@ -218,7 +218,7 @@
    c) Peripheral  
    d) Powerful  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **28.** The two common functions used in every Arduino sketch are:  
    a) Main() & setup()  
@@ -226,7 +226,7 @@
    c) Main() & loop()  
    d) None of these  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **29.** The ATmega A328P is an ___-bit microcontroller:  
    a) 10  
@@ -234,7 +234,7 @@
    c) 16  
    d) 32  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 
 
@@ -244,7 +244,7 @@
    c) 0.5kb  
    d) 0.05Kb  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **31.** Which microcontroller is used in the Arduino Uno board?  
    a) ATmega328P ✅  
@@ -252,7 +252,7 @@
    c) ATmega32U4  
    d) ESP8266  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **32.** How many digital I/O pins are available on the Arduino Uno board?  
    a) 10  
@@ -260,7 +260,7 @@
    c) 14 ✅  
    d) 16  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **33.** Which of the following communication protocols is supported by Arduino boards?  
    a) UART  
@@ -268,7 +268,7 @@
    c) I2C  
    d) All of the above ✅  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **34.** What is the primary function of the ALU (Arithmetic Logic Unit) in a microcontroller?  
    a) To handle data input/output  
@@ -276,7 +276,7 @@
    c) To perform arithmetic and logical operations ✅  
    d) To manage interrupts  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **35.** Which of the following is typically *not* part of a microcontroller?  
    a) CPU  
@@ -284,7 +284,7 @@
    c) ROM  
    d) I/O ports  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **36.** What is an interrupt in a microcontroller?  
    a) A signal to stop the microcontroller from running  
@@ -292,7 +292,7 @@
    c) A system reset signal  
    d) A method to increase clock speed  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **37.** In a microcontroller, what is the purpose of a timer?  
    a) To execute instructions  
@@ -300,7 +300,7 @@
    c) To generate delays or count events ✅  
    d) To reset the microcontroller  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **38.** Which of the following is a key characteristic of the Harvard architecture?  
    a) Single bus for both instructions and data  
@@ -308,7 +308,7 @@
    c) Multiplexing of data and instructions  
    d) Sequential access of data and instructions  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 
 **39.** Which IDE is commonly used to program Arduino boards?  
@@ -317,7 +317,7 @@
    c) Arduino IDE ✅  
    d) Visual Studio  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 **40.** The clock speed of the Arduino Uno’s microcontroller is:  
    a) 8 MHz  
@@ -325,5 +325,5 @@
    c) 16 MHz ✅  
    d) 20 MHz  
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
