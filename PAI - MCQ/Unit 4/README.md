@@ -2,9 +2,9 @@
 
 
 **1.** In order to operate the A328P in Master-Slave configuration, the pins used are:  
-   a) SCK, MOSI & MISO  
+   a) SCK, MOSI & MISO ✅
    b) MOSI & MISO  
-   c) CLK, MOSI & MISO ✅  
+   c) CLK, MOSI & MISO   
    d) SS, MOSI & MISO  
 
 ---
@@ -19,17 +19,17 @@
 
 **3.** Sensors can be interfaced to:  
    a) Analog port  
-   b) Digital port  
-   c) Both a & b ✅  
+   b) Digital port ✅ 
+   c) Both a & b   
    d) None of these  
 
 ---
 
 **4.** An event caused the A328P to suspend all running operations and start the program again. This may be due to:  
    a) Interrupt  
-   b) Reset ✅  
+   b) Reset   
    c) Power OFF  
-   d) All of these  
+   d) All of these ✅
 
 ---
 
@@ -76,8 +76,8 @@
 
 
 **10.** When the controller acts as the Master, which pin is used for receiving data from Master to Slave?  
-   a) MOSI  
-   b) MISO ✅  
+   a) MOSI ✅
+   b) MISO   
    c) SS  
    d) CLK  
 
