@@ -1,3 +1,6 @@
+; 8086 ALP to covert 8 bit Hexadecimal number to equivalent decimal number.
+; Implement with proper user interface.
+
 section .data
 
 msg1 db 10,15,'Enter valid single digit HEX (0-9, A-F, a-f): '
