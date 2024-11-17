@@ -5,7 +5,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Example Titanic dataset
 data = {
     'Passenger ID': [1, 2, 3, 4, 5, 6],
     'Survived': [0, 1, 1, 0, 1, 0],
@@ -18,7 +17,6 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Plot the distribution of passenger ages
 plt.figure(figsize=(8, 5))
 sns.histplot(df['Age'], bins=10, kde=True, color='skyblue')
 plt.title('Distribution of Passenger Ages')
