@@ -5,7 +5,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Example dataset
 data = {
     'Product ID': [101, 102, 103, 104, 105, 106],
     'Product Name': ['Item A', 'Item B', 'Item C', 'Item D', 'Item E', 'Item F'],
@@ -16,13 +15,10 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Calculate average rating for each category
 avg_rating_per_category = df.groupby('Category')['Rating'].mean().reset_index()
 
-# Display average ratings
 print(avg_rating_per_category)
 
-# Visualize average ratings
 plt.figure(figsize=(8, 5))
 sns.barplot(x='Category', y='Rating', data=avg_rating_per_category, palette='viridis')
 plt.title('Average Rating by Category')
