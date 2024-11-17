@@ -4,7 +4,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Example dataset
 data = {
     'Date': ['2024-11-01', '2024-11-02', '2024-11-03', '2024-11-01', '2024-11-02', '2024-11-03'],
     'City': ['City A', 'City A', 'City A', 'City B', 'City B', 'City B'],
@@ -15,10 +14,8 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Convert 'Date' to datetime for better handling
 df['Date'] = pd.to_datetime(df['Date'])
 
-# Plot temperature trends
 plt.figure(figsize=(10, 6))
 for city in df['City'].unique():
     city_data = df[df['City'] == city]
