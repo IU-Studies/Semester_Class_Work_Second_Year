@@ -5,7 +5,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Example dataset
 data = {
     'Applicant ID': [1, 2, 3, 4, 5, 6, 7, 8],
     'Loan Amount': [5000, 10000, 15000, 20000, 12000, 7000, 30000, 25000],
@@ -16,7 +15,6 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Visualize the distribution of loan amounts for approved vs. defaulted loans
 plt.figure(figsize=(10, 6))
 sns.histplot(data=df, x='Loan Amount', hue='Default', kde=True, bins=10, palette='coolwarm', multiple='stack')
 plt.title('Distribution of Loan Amounts by Default Status')
