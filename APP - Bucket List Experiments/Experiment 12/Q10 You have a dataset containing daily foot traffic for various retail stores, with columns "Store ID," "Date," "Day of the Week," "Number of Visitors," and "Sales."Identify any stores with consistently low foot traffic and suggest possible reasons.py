@@ -6,7 +6,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Example dataset
 data = {
     'Store ID': [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4],
     'Date': ['2024-11-01', '2024-11-02', '2024-11-03', '2024-11-01', '2024-11-02', '2024-11-03',
@@ -18,19 +17,15 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Aggregate data by Store ID
 avg_foot_traffic = df.groupby('Store ID')['Number of Visitors'].mean().reset_index()
 avg_foot_traffic.columns = ['Store ID', 'Avg Visitors']
 
-# Identify stores with low traffic (e.g., bottom 10%)
 threshold = avg_foot_traffic['Avg Visitors'].quantile(0.10)
 low_traffic_stores = avg_foot_traffic[avg_foot_traffic['Avg Visitors'] <= threshold]
 
-# Print stores with consistently low traffic
 print("Stores with low foot traffic:")
 print(low_traffic_stores)
 
-# Visualize average foot traffic by store
 plt.figure(figsize=(10, 6))
 sns.barplot(data=avg_foot_traffic, x='Store ID', y='Avg Visitors', palette='viridis')
 plt.axhline(y=threshold, color='red', linestyle='--', label='Low Traffic Threshold')
