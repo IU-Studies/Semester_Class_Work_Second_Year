@@ -5,7 +5,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Example dataset
 data = {
     'Date': ['2024-11-01', '2024-11-02', '2024-11-03', '2024-11-04', '2024-11-05'],
     'City': ['City A', 'City A', 'City A', 'City A', 'City A'],
@@ -17,16 +16,12 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Select only pollutant columns
 pollutants = df[['PM2.5', 'PM10', 'NO2', 'O3', 'SO2']]
 
-# Compute the correlation matrix
 correlation_matrix = pollutants.corr()
 
-# Print the correlation matrix
 print(correlation_matrix)
 
-# Visualize the correlation matrix using a heatmap
 plt.figure(figsize=(8, 6))
 sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5)
 plt.title('Correlation Between Pollutants')
