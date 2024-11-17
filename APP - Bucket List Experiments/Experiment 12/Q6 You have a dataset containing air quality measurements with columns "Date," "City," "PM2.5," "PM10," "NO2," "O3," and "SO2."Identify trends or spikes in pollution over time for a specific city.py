@@ -4,7 +4,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Example dataset
 data = {
     'Date': ['2024-11-01', '2024-11-02', '2024-11-03', '2024-11-04', '2024-11-05'],
     'City': ['City A', 'City A', 'City A', 'City A', 'City A'],
@@ -16,13 +15,10 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Convert 'Date' to datetime for better handling
 df['Date'] = pd.to_datetime(df['Date'])
 
-# Filter data for a specific city (e.g., 'City A')
 city_data = df[df['City'] == 'City A']
 
-# Plot pollutants over time
 plt.figure(figsize=(12, 8))
 
 for pollutant in ['PM2.5', 'PM10', 'NO2', 'O3', 'SO2']:
