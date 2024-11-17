@@ -2,7 +2,6 @@
 
 import pandas as pd
 
-# Example DataFrame
 data = {
     'Date': ['2024-11-01', '2024-11-02', '2024-11-01', '2024-11-02'],
     'Product': ['A', 'B', 'A', 'B'],
@@ -11,11 +10,8 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Calculate total revenue for each product
 total_revenue_per_product = df.groupby('Product')['Revenue'].sum()
 
-# Convert result to a DataFrame if needed
 total_revenue_per_product_df = total_revenue_per_product.reset_index()
 
-# Display result
 print(total_revenue_per_product_df)
