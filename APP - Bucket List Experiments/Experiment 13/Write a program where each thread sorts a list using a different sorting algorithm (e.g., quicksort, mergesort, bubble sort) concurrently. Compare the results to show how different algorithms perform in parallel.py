@@ -38,7 +38,7 @@ def bubble_sort(arr):
 
 def sort_with_algorithm(algorithm, arr, results, index):
     start_time = time.time()
-    sorted_arr = algorithm(arr[:])  # Use a copy of the array to avoid side effects
+    sorted_arr = algorithm(arr[:]) 
     end_time = time.time()
     results[index] = (sorted_arr, end_time - start_time)
 
