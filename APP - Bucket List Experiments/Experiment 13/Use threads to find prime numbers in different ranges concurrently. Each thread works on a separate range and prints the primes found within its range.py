@@ -12,7 +12,7 @@ def find_primes_in_range(start, end):
     primes = [num for num in range(start, end + 1) if is_prime(num)]
     print(f"Primes in range {start}-{end}: {primes}")
 
-ranges = [(10, 50), (51, 100), (101, 150)]  # Example ranges
+ranges = [(10, 50), (51, 100), (101, 150)] 
 threads = []
 
 for start, end in ranges:
