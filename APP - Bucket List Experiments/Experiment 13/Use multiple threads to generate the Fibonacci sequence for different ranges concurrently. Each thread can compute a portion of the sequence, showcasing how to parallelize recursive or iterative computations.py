@@ -1,3 +1,6 @@
+#Use multiple threads to generate the Fibonacci sequence for different ranges concurrently. 
+#Each thread can compute a portion of the sequence, showcasing how to parallelize recursive or iterative computations.
+
 import threading
 
 def fibonacci_range(start, end, results, index):
