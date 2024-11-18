@@ -26,7 +26,6 @@ def parallel_fibonacci(ranges):
         merged_sequence.extend(part)
     return merged_sequence
 
-# Example usage
-ranges = [(0, 10), (11, 20), (21, 30)]  # Define the ranges for Fibonacci computation
+ranges = [(0, 10), (11, 20), (21, 30)]  
 fib_sequence = parallel_fibonacci(ranges)
 print("Fibonacci sequence:", fib_sequence)
