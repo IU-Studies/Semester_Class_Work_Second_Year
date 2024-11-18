@@ -1,3 +1,6 @@
+#Write a program where each thread sorts a list using a different sorting algorithm (e.g., quicksort, mergesort, bubble sort) concurrently. 
+#Compare the results to show how different algorithms perform in parallel.
+
 import threading
 import time
 
