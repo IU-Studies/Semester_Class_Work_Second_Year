@@ -6,7 +6,6 @@ def fetch_exchange_rate(api_url, results, index):
         response = requests.get(api_url)
         response.raise_for_status()
         data = response.json()
-        # Assuming API response contains a key `rate` for the exchange rate
         results[index] = data.get('rate')
     except Exception as e:
         results[index] = None
@@ -38,8 +37,7 @@ def currency_converter(amount, from_currency, to_currency):
     else:
         print("Failed to fetch exchange rates from all APIs.")
 
-# Example usage
-amount = 100  # Amount to convert
-from_currency = "USD"  # Currency to convert from
-to_currency = "EUR"  # Currency to convert to
+amount = 100  
+from_currency = "USD"  
+to_currency = "EUR"  
 currency_converter(amount, from_currency, to_currency)
