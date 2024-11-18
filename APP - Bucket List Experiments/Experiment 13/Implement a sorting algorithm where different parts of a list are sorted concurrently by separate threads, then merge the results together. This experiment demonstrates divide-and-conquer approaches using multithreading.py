@@ -42,6 +42,6 @@ def concurrent_sort(numbers, num_threads):
     return merge_sorted_lists(results)
 
 numbers = [34, 7, 23, 32, 5, 62, 14, 78, 50, 3, 10]
-num_threads = 3  # Number of threads
+num_threads = 3  
 sorted_numbers = concurrent_sort(numbers, num_threads)
 print("Sorted list:", sorted_numbers)
