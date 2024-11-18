@@ -10,7 +10,7 @@ def count_words(file_path):
         print(f"File {file_path} not found.")
 
 threads = []
-file_paths = ["file1.txt", "file2.txt", "file3.txt"]  # Replace with your file paths
+file_paths = ["file1.txt", "file2.txt", "file3.txt"] 
 
 for path in file_paths:
     thread = threading.Thread(target=count_words, args=(path,))
