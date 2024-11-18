@@ -1,3 +1,6 @@
+#Implement a search algorithm (e.g., binary search or linear search) where multiple threads search different segments of a list concurrently. 
+#This can showcase how to break up and parallelize search tasks.
+
 import threading
 
 def search_segment(segment, target, result, index):
