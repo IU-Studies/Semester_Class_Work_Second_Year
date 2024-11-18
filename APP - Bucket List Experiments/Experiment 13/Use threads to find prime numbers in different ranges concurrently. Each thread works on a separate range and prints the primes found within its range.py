@@ -1,3 +1,6 @@
+#Use threads to find prime numbers in different ranges concurrently. 
+#Each thread works on a separate range and prints the primes found within its range.
+
 import threading
 
 def is_prime(number):
