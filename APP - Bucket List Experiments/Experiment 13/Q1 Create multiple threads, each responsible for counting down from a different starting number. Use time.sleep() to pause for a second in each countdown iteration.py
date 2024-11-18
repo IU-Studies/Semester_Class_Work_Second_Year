@@ -1,4 +1,5 @@
-#Create multiple threads, each responsible for counting down from a different starting number. Use time.sleep() to pause for a second in each countdown iteration.py
+#Create multiple threads, each responsible for counting down from a different starting number. 
+#Use time.sleep() to pause for a second in each countdown iteration.py
 
 import threading
 import time
