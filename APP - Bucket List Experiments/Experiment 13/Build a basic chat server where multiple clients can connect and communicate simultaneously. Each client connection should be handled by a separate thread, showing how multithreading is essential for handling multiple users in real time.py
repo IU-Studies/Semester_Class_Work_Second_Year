@@ -1,6 +1,6 @@
 # Build a basic chat server where multiple clients can connect and communicate simultaneously. 
 # Each client connection should be handled by a separate thread, showing how multithreading is essential 
-# for handling multiple users in real time.py
+# for handling multiple users in real time.
 
 # SERVER CODE
 """
