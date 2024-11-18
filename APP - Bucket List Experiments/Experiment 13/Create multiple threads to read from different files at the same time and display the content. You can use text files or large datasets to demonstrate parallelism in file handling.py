@@ -1,3 +1,6 @@
+#Create multiple threads to read from different files at the same time and display the content. 
+#You can use text files or large datasets to demonstrate parallelism in file handling.
+
 import threading
 
 def read_file(file_path):
