@@ -1,3 +1,6 @@
+#Implement a sorting algorithm where different parts of a list are sorted concurrently by separate threads, then merge the results together. 
+#This experiment demonstrates divide-and-conquer approaches using multithreading.
+
 import threading
 
 def sort_sublist(sublist, results, index):
