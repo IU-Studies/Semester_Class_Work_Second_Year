@@ -8,7 +8,7 @@ def countdown(start):
         time.sleep(1)
 
 threads = []
-start_numbers = [10, 7, 5]  # Example starting numbers for countdowns
+start_numbers = [10, 7, 5]  
 
 for number in start_numbers:
     thread = threading.Thread(target=countdown, args=(number,))
