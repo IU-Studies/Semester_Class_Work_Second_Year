@@ -1,3 +1,5 @@
+#Use threads to count words in multiple text files concurrently. Each thread could handle one file and return the word count, helping to demonstrate parallel text processing.py
+
 import threading
 
 def count_words(file_path):
