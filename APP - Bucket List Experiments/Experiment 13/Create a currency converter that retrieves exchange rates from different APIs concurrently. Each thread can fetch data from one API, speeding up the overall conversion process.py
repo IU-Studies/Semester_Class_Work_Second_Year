@@ -1,3 +1,6 @@
+#Create a currency converter that retrieves exchange rates from different APIs concurrently. 
+#Each thread can fetch data from one API, speeding up the overall conversion process
+
 import threading
 import requests
 
