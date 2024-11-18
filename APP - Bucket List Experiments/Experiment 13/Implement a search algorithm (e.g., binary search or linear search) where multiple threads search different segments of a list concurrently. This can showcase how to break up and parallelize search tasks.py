@@ -3,9 +3,9 @@ import threading
 def search_segment(segment, target, result, index):
     for i, value in enumerate(segment):
         if value == target:
-            result[index] = i  # Store the index relative to the segment
+            result[index] = i
             return
-    result[index] = -1  # Indicate the target was not found in this segment
+    result[index] = -1  
 
 def parallel_search(numbers, target, num_threads):
     segment_size = len(numbers) // num_threads
@@ -25,11 +25,10 @@ def parallel_search(numbers, target, num_threads):
 
     for i, relative_index in enumerate(results):
         if relative_index != -1:
-            return i * segment_size + relative_index  # Convert to absolute index
+            return i * segment_size + relative_index  
 
-    return -1  # Target not found
+    return -1 
 
-# Example usage
 numbers = [10, 23, 45, 6, 78, 34, 89, 12, 67, 90, 56]
 target = 34
 num_threads = 3
