@@ -1,3 +1,6 @@
+#Use logging inside a context manager (with statement) to ensure that all operations within the context are logged, 
+#even if exceptions are raised.
+
 import logging
 
 logging.basicConfig(
