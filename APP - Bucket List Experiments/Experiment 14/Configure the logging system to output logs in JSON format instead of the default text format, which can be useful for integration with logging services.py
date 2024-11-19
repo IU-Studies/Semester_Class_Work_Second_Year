@@ -1,3 +1,6 @@
+#Configure the logging system to output logs in JSON format instead of the default text format, 
+#which can be useful for integration with logging services
+
 import logging
 import json
 
