@@ -1,3 +1,5 @@
+#Write a program that logs exceptions (with stack traces) when they occur, using logging.exception().
+
 import logging
 
 logging.basicConfig(
