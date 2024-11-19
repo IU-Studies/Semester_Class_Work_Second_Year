@@ -1,8 +1,7 @@
 import logging
 
-# Configure the logger
 logging.basicConfig(
-    level=logging.ERROR,  # Log only error messages and above
+    level=logging.ERROR, 
     format='%(asctime)s - %(levelname)s - %(message)s',
     filename='error.log',
     filemode='a'
