@@ -1,14 +1,12 @@
 import logging
 
-# Configure the logger to write only to a log file
 logging.basicConfig(
-    level=logging.DEBUG,  # Set the minimum logging level
+    level=logging.DEBUG, 
     format='%(asctime)s - %(levelname)s - %(message)s',
-    filename='app.log',  # Log messages are written to this file
-    filemode='a'         # Append mode: add logs to the end of the file
+    filename='app.log', 
+    filemode='a'         
 )
 
-# Log messages at different severity levels
 logging.debug("This is a DEBUG message, used for detailed diagnostic information.")
 logging.info("This is an INFO message, used to confirm normal operations.")
 logging.warning("This is a WARNING message, used to indicate a potential problem.")
