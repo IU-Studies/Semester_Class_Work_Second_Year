@@ -1,3 +1,6 @@
+#Experiment with customizing the log message format by adding timestamps, log level, 
+#and the module name in the log output
+
 import logging
 
 logging.basicConfig(
