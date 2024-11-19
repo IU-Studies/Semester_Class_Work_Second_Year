@@ -1,3 +1,5 @@
+#Modify the logging configuration so that all log messages are written to a log file instead of the console
+
 import logging
 
 logging.basicConfig(
