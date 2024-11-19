@@ -1,3 +1,6 @@
+#Create custom log levels beyond the default ones and log messages using these new levels. 
+#Define your own integer-based log level and configure it in the logger
+
 import logging
 
 VERBOSE_LEVEL = 15
