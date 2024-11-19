@@ -1,5 +1,6 @@
-import logging
+#Write a Python program to log messages at different severity levels: DEBUG, INFO, WARNING, ERROR, and CRITICAL.
 
+import logging
 
 logging.basicConfig(
     level=logging.DEBUG,  
