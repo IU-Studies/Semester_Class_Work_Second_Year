@@ -1,3 +1,5 @@
+#Implement a custom log filter that only allows messages from specific modules or messages containing certain keywords to be logged
+
 import logging
 
 class KeywordFilter(logging.Filter):
