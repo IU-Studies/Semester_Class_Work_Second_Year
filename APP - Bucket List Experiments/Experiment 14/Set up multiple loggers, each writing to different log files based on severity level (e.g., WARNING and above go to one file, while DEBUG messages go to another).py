@@ -1,3 +1,6 @@
+#Set up multiple loggers, each writing to different log files based on severity level 
+#(e.g., WARNING and above go to one file, while DEBUG messages go to another).
+
 import logging
 
 debug_logger = logging.getLogger("debug_logger")
