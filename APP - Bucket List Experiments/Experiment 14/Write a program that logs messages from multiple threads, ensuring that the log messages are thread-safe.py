@@ -1,3 +1,5 @@
+#Write a program that logs messages from multiple threads, ensuring that the log messages are thread-safe.
+
 import logging
 import threading
 import time
