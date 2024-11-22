@@ -16,14 +16,14 @@ def experiment_with_thresholds():
     simulate_gc_activity()
 
     print("\nResetting thresholds to default...")
-    gc.set_threshold(700, 10, 10)  # Default values for Python
+    gc.set_threshold(700, 10, 10)  
     show_gc_thresholds()
     simulate_gc_activity()
 
 def simulate_gc_activity():
     large_objects = []
     print("Simulating object creation...")
-    for _ in range(1000):  # Create many objects
+    for _ in range(1000): 
         large_objects.append([0] * 1000)
     del large_objects
     print("Objects deleted. Triggering garbage collection manually.")
