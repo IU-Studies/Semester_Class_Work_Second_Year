@@ -1,3 +1,6 @@
+#Set up logging using gc.callbacks to observe when garbage collection occurs. 
+#Create an experiment where you add and remove a callback to log events when collections happen.
+
 import gc
 import logging
 import random
