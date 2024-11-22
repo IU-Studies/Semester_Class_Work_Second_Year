@@ -1,3 +1,5 @@
+#Use gc.get_count() to count how many objects exist in each generation. Track how the counts change as the program runs.
+
 import gc
 import random
 import time
