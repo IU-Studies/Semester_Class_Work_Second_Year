@@ -1,3 +1,6 @@
+#Experiment with turning garbage collection on and off using gc.enable() and gc.disable(). 
+#Observe memory usage with and without automatic garbage collection.
+
 import gc
 import tracemalloc
 import time
