@@ -1,3 +1,5 @@
+#Use gc.get_threshold() to print the current garbage collection thresholds and experiment with setting custom thresholds using gc.set_threshold().
+
 import gc
 
 def show_gc_thresholds():
