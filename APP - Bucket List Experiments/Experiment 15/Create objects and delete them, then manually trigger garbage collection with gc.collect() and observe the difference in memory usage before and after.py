@@ -1,3 +1,6 @@
+#Create objects and delete them, 
+#then manually trigger garbage collection with gc.collect() and observe the difference in memory usage before and after
+
 import gc
 import tracemalloc
 
