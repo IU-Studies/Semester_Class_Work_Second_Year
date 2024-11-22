@@ -1,3 +1,6 @@
+#Write two versions of a program: one that relies on automatic garbage collection and one that uses manual garbage collection. 
+#Measure and compare the performance of both versions.
+
 import gc
 import random
 import tracemalloc
