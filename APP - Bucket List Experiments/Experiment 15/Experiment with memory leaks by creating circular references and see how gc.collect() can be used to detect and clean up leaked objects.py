@@ -1,3 +1,5 @@
+#Experiment with memory leaks by creating circular references and see how gc.collect() can be used to detect and clean up leaked objects
+
 import gc
 
 class CircularReference:
