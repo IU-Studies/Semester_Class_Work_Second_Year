@@ -1,3 +1,6 @@
+#Enable debugging flags in the gc module using gc.set_debug(), 
+#then create and collect objects. Print out debug information to understand garbage collection operations.
+
 import gc
 import random
 
