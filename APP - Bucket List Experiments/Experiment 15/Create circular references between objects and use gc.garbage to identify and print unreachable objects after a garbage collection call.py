@@ -1,3 +1,5 @@
+#Create circular references between objects and use gc.garbage to identify and print unreachable objects after a garbage collection call
+
 import gc
 
 class A:
