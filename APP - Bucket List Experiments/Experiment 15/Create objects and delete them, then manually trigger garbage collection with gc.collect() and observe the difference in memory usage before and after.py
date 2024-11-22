@@ -10,17 +10,14 @@ def create_and_delete_objects():
     print("Initial memory usage:")
     print_memory_usage()
 
-    # Create objects
     objects = [LargeObject(10**6) for _ in range(5)]
     print("\nMemory usage after creating objects:")
     print_memory_usage()
 
-    # Delete objects
     del objects
     print("\nMemory usage after deleting objects (before gc.collect):")
     print_memory_usage()
 
-    # Manually trigger garbage collection
     gc.collect()
     print("\nMemory usage after gc.collect():")
     print_memory_usage()
