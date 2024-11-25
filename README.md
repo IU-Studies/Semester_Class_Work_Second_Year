@@ -35,5 +35,3 @@
 </p>
 
 <h4 align="center">Now go study! This cat is working hard. If you don’t study, this cat will outperform you.</h4>
-
-
