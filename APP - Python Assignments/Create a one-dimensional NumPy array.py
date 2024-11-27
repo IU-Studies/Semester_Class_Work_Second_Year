@@ -1,3 +1,4 @@
+#Create a one-dimensional NumPy array.
 import numpy as np
 
 arr = np.arange(1, 11)
