@@ -1,5 +1,5 @@
+#Regular Expression (Regex) Pattern Matching
 import re
-
 def find_valid_emails(text):
     specific_email_pattern = r'[a-zA-Z0-9._%+-]+@example\.com'
     emails = re.findall(specific_email_pattern, text)
