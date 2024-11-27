@@ -1,3 +1,4 @@
+#Dynamic Report Generator.
 class Report:
     def __init__(self, title, content):
         self.title = title
