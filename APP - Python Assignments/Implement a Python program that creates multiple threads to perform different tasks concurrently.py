@@ -5,15 +5,15 @@ import math
 import threading
 
 def download_data(file_id):
-    print(f"Starting download for file {file_id}...\n")
+    print("Starting download for file " + str(file_id) + "...")
     time.sleep(random.uniform(1, 3))
-    print(f"Download completed for file {file_id}.\n")
+    print("Download completed for file " + str(file_id) + ".")
     time.sleep(1)
 
 def calculate_factorial(number):
-    print(f"Starting factorial calculation for {number}...\n")
+    print("Starting factorial calculation for " + str(number) + "...")
     factorial = math.factorial(number)
-    print(f"Factorial of {number} is {factorial}.\n")
+    print("Factorial of " + str(number) + " is " + str(factorial) + ".")
     time.sleep(1)
 
 # Create threads for downloading files
