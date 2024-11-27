@@ -1,5 +1,5 @@
+#Longest common subsequence between two sequences.
 from functools import lru_cache
-
 def longest_common_subsequence(seq1, seq2):
     @lru_cache(None)
     def dp(i, j):
