@@ -11,7 +11,6 @@
   <li><b>Processor Architecture and Interfacing (PAI)</b> 🤖⚡📡📟</li>
 </ul>
 
-<p><b>I plan to include more subjects later on.</b></p>
 
 ---
 <h3>Note: This material is for reference purposes only. This repository does not encourage cheating or direct copying. ✨</h3>
